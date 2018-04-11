@@ -29,7 +29,7 @@ $cacheFile = 'RSSCache.txt';
 
 // Set unchanging Known variables
 $known['action'] = "/like/edit";
-$known['username'] = "Jeremy";
+$known['username'] = "Xxx";// Get your own
 $known['known_api_key'] = "xxx"; // Get your own
 $known['token'] = base64_encode(hash_hmac('sha256',$known['action'] ,$known['known_api_key'] , true));
 
