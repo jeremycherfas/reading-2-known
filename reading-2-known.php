@@ -30,7 +30,7 @@ $cacheFile = 'RSSCache.txt';
 // Set unchanging Known variables
 $known['action'] = "/like/edit";
 $known['username'] = "Jeremy";
-$known['known_api_key'] = "sm8nuepl3qihq0ew";
+$known['known_api_key'] = "xxx"; // Get your own
 $known['token'] = base64_encode(hash_hmac('sha256',$known['action'] ,$known['known_api_key'] , true));
 
 // retrieve $old_guid from cachefile
